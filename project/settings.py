@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # Project-specific
-    'users',
+    'core',
 ]
 
 MIDDLEWARE = [
@@ -129,7 +129,7 @@ STATICFILES_DIRS = [
 
 # Custom user model
 
-AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'core.User'
 
 # Debug toolbar config
 

@@ -21,11 +21,11 @@ pipenv shell
 
 You also need to create a Django app.
 
-This project requires the use of [PostgreSQL](https://www.postgresql.org/) as its database, and must be deployed to [Heroku](https://www.heroku.com/). I suggest setting both of those up first thing.
+This project requires the use of [PostgreSQL](https://www.postgresql.org/) as its database, and must be deployed to [Heroku](https://www.heroku.com/). You should set both of those up first thing.
 
 ## How questions and answers work
 
-Questions have a title and a body. Allow your users to use [Markdown](https://en.wikipedia.org/wiki/Markdown) for authoring question bodies. [django-markdownify](https://pypi.org/project/django-markdownify/) can turn Markdown into HTML for you. Questions cannot be edited once they have been asked. A question can be deleted by its author. If it is deleted, all associated answers should also be deleted.
+Questions have a title and a body. Allow your users to use [Markdown](https://en.wikipedia.org/wiki/Markdown) for authoring question bodies. [django-markdownify](https://pypi.org/project/django-markdownify/) can turn Markdown into HTML for you in the template. Questions cannot be edited once they have been asked. A question can be deleted by its author. If it is deleted, all associated answers should also be deleted.
 
 Answers just have a body and are connected to a question. Answers can also use Markdown.
 
